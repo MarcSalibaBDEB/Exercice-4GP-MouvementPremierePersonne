@@ -1153,7 +1153,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 650890646}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74b877e3cea77ce4ea66cfecf0c71377, type: 3}
+  m_Script: {fileID: 11500000, guid: ce2c9435c6e7f734fa6c379c4beecf35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &689640061
@@ -2782,13 +2782,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1432758232}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e63e2c7a4bdc1e438113b45623f84b2, type: 3}
+  m_Script: {fileID: 11500000, guid: 15c4057157a9b6046a7ffc40925d9312, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  joueur: {fileID: 2139971651}
-  rotationXMinimale: -50
-  rotationXMaximale: 50
-  vitesseRotation: 500
+  angleMinimum: -30
+  angleMaximum: 30
+  vitesseRotation: 1000
 --- !u!1001 &1659542638
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3671,12 +3670,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2139971651}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c50538688c64a44dbbb1698fdda05f7, type: 3}
+  m_Script: {fileID: 11500000, guid: 9e9be63325887194095cf2c98f38b4f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectif: {fileID: 567927856}
-  vitesse: 5
-  saut: 5
 --- !u!1001 &1969175842867051067
 PrefabInstance:
   m_ObjectHideFlags: 0
