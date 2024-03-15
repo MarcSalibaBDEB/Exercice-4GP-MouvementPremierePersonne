@@ -27,11 +27,11 @@ public class Controleur : MonoBehaviour
 
     public void Quitter()
     {
-#if UNITY_EDITOR
-        EditorApplication.isPlaying = false;
-#else
-        Application.Quit();
-#endif
+        #if UNITY_EDITOR
+                EditorApplication.isPlaying = false;
+        #else
+                Application.Quit();
+        #endif
     }
 
     public void ChargerJeu()
